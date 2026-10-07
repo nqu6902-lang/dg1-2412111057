@@ -1,0 +1,23 @@
+*   b628eaf (HEAD -> main, tag: v1.0.0, origin/main) fix: resolve readme merge conflict
+|\  
+| * ed030c1 (origin/develop, develop) docs: update readme on develop
+| *   e5d88e8 Merge pull request #2 from nqu6902-lang/feature/docker
+| |\  
+| | * 36be174 (origin/feature/docker, feature/docker) fix: correct students json format
+| | * 41d3d5e feat: add nginx reverse proxy and compose
+| | * 239d883 feat: add docker configuration
+| | *   14169cf Merge branch 'feature/web-app' into feature/docker
+| | |\  
+| | * | 4a90ce3 feat: add docker configuration
+| * | |   80308b9 Merge pull request #1 from nqu6902-lang/feature/web-app
+| |\ \ \  
+| | |/ /  
+| |/| /   
+| | |/    
+| | * aa407ec (origin/feature/web-app, feature/web-app) chore: remove unnecessary script ignore
+| | * ad368fe feat: add student api
+| | * 49d6560 feat: add student web interface
+| |/  
+* / 894b36b docs: add project readme
+|/  
+* ad846bd chore: init project
