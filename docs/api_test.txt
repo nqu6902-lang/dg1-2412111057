@@ -1,0 +1,77 @@
+DG1 – Minh – 2412111057
+API TEST
+
+1. GET /api/health
+
+curl -i http://localhost:5000/api/health
+
+HTTP/1.1 200 OK
+
+{
+  "status": "ok",
+  "student": "2412111057"
+}
+
+
+2. GET /api/students
+
+curl -i http://localhost:5000/api/students
+
+HTTP/1.1 200 OK
+
+Danh sách sinh viên được trả về.
+
+
+3. GET /api/students?lop=CNTT01
+
+curl -i "http://localhost:5000/api/students?lop=CNTT01"
+
+HTTP/1.1 200 OK
+
+Danh sách sinh viên lớp CNTT01 được trả về.
+
+
+4. GET /api/students/1
+
+curl -i http://localhost:5000/api/students/1
+
+HTTP/1.1 200 OK
+
+Sinh viên ID 1 được trả về.
+
+
+5. GET /api/students/999
+
+curl -i http://localhost:5000/api/students/999
+
+HTTP/1.1 404 NOT FOUND
+
+Sinh viên không tồn tại.
+
+
+6. POST /api/students - dữ liệu hợp lệ
+
+HTTP/1.1 201 CREATED
+
+Sinh viên mới được thêm thành công.
+
+
+7. POST /api/students - thiếu trường
+
+HTTP/1.1 400 BAD REQUEST
+
+Missing field.
+
+
+8. POST /api/students - diem > 10
+
+HTTP/1.1 400 BAD REQUEST
+
+diem must be between 0 and 10.
+
+
+9. POST /api/students - diem < 0
+
+HTTP/1.1 400 BAD REQUEST
+
+diem must be between 0 and 10.

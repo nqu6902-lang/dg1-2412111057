@@ -1,37 +1,44 @@
 [
-    {
-        "id": 1,
-        "mssv": "2412111057",
-        "ho_ten": "Minh",
-        "lop": "CNTT01",
-        "diem": 8.5
-    },
-    {
-        "id": 2,
-        "mssv": "2412111058",
-        "ho_ten": "Nguyen Van An",
-        "lop": "CNTT01",
-        "diem": 7.5
-    },
-    {
-        "id": 3,
-        "mssv": "2412111059",
-        "ho_ten": "Tran Thi Binh",
-        "lop": "CNTT02",
-        "diem": 9.0
-    },
-    {
-        "id": 4,
-        "mssv": "2412111060",
-        "ho_ten": "Le Van Cuong",
-        "lop": "CNTT02",
-        "diem": 6.5
-    },
-    {
-        "id": 5,
-        "mssv": "2412111061",
-        "ho_ten": "Pham Thi Dung",
-        "lop": "CNTT03",
-        "diem": 8.0
-    }
+  {
+    "id": 1,
+    "mssv": "2412111057",
+    "ho_ten": "Minh",
+    "lop": "CNTT01",
+    "diem": 8.5
+  },
+  {
+    "id": 2,
+    "mssv": "2412111058",
+    "ho_ten": "Nguyen Van An",
+    "lop": "CNTT01",
+    "diem": 7.5
+  },
+  {
+    "id": 3,
+    "mssv": "2412111059",
+    "ho_ten": "Tran Thi Binh",
+    "lop": "CNTT02",
+    "diem": 9.0
+  },
+  {
+    "id": 4,
+    "mssv": "2412111060",
+    "ho_ten": "Le Van Cuong",
+    "lop": "CNTT02",
+    "diem": 6.5
+  },
+  {
+    "id": 5,
+    "mssv": "2412111061",
+    "ho_ten": "Pham Thi Dung",
+    "lop": "CNTT03",
+    "diem": 8.0
+  },
+  {
+    "id": 6,
+    "mssv": "2412111062",
+    "ho_ten": "Nguyen Van E",
+    "lop": "CNTT03",
+    "diem": 8.8
+  },
 ]
