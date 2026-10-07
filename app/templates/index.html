@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <title>DG1 – {{ ho_ten }} – {{ mssv }}</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>QUẢN LÝ DANH SÁCH SINH VIÊN</h1>
+
+    <h2>DG1 – {{ ho_ten }} – {{ mssv }}</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>MSSV</th>
+                <th>Họ tên</th>
+                <th>Lớp</th>
+                <th>Điểm</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{ student.id }}</td>
+                <td>{{ student.mssv }}</td>
+                <td>{{ student.ho_ten }}</td>
+                <td>{{ student.lop }}</td>
+                <td>{{ student.diem }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
