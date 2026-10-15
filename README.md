@@ -1,1 +1,1 @@
-# DG1 – duc Minh – 2412111057
+# DG1 – Duc Minh da chinh – 2412111057
